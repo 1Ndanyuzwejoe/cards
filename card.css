@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    font-family:'poppins',roboto,sans-serif;
+    text-overflow: ellipsis;
+    text-align: justify;
+    /* letter-spacing: 2px; */
+    text-indent: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin-top:90px;
+}
+.card{
+    background-color: #fff;
+    width: 280px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-image{
+    /* background-color: aqua; */
+    height: 150px;
+    margin-bottom: 17px;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+.card-1{
+    background-image:url(./images/manik-roy-u7GtZ0yVijw-unsplash.jpg) ;
+}
+.card-2{
+   background-image: url(./images/ben-kolde-FaPxZ88yZrw-unsplash.jpg);
+}
+.card-3{
+   background-image: url(./images/bermix-studio-b8mwvvFs8Ak-unsplash.jpg);
+}
+.card-4{
+    background-image: url(./images/jonathan-borba-hl6uG9cHW5A-unsplash.jpg);
+}
+.card p{
+    padding: 15px;
+}
+.card a{
+    background-color: #000;
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin:  20px;
+    text-decoration: none;
+}
+.card:hover{
+    /* background-color: #000; */
+    background-image: url(./images/annie.jpg);
+    background-size: cover;
+    color: rgb(4, 1, 1);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+.card h2{
+    text-align:center;
+}
+.card hr{
+    width: 50%;
+    margin: auto;
+    height: 3px;
+    border-bottom: 3px solid rebeccapurple;
+}
+.card a:hover{
+    color: transparent rgb(240, 126, 126);
+    background: none;
+    color: black;
+}
